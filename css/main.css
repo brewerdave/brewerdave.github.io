@@ -31,9 +31,11 @@ header {
 
 #header-logo {
     padding: 20px;
+    max-block-size: 100px;
 }
 
 #header-title {
+    padding-top: 10px;
     font-size: 30pt;
     width: 50%;
     text-align: right;
@@ -43,4 +45,9 @@ header {
     font-size: 15pt;
     width: 50%;
     text-align: right;
+}
+
+#main-img {
+    width: 100%;
+    padding: 20px;
 }
