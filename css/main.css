@@ -1,0 +1,46 @@
+.color-light-blue { color: #02B3E4 }
+.color-dark-greyblue { color: #2D3C49}
+.color-light-greyblue { color: #7D97AD}
+
+* {
+    box-sizing: border-box;
+    color: #2D3C49;
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+
+header {
+    border-bottom: thick solid #7D97AD;
+    
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#header-logo {
+    padding: 20px;
+}
+
+#header-title {
+    font-size: 30pt;
+    width: 50%;
+    text-align: right;
+}
+
+#header-subtitle {
+    font-size: 15pt;
+    width: 50%;
+    text-align: right;
+}
