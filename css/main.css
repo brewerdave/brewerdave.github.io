@@ -37,17 +37,29 @@ header {
 #header-title {
     padding-top: 10px;
     font-size: 30pt;
-    width: 50%;
+    width: 55%;
     text-align: right;
 }
 
 #header-subtitle {
     font-size: 15pt;
-    width: 50%;
+    width: 55%;
     text-align: right;
 }
 
 #main-img {
     width: 100%;
     padding: 20px;
+}
+
+#portfolio-tiles {
+    width: 100%;
+    padding: 20px;
+}
+
+.tile {
+    width: 255px;
+    height: 255px;
+    margin: 20px;
+    border: thin solid #02B3E4;
 }
