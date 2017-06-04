@@ -3,7 +3,7 @@
 .color-light-greyblue { color: #7D97AD}
 
 * {
-    color: #2D3C49; 
+    color: #2D3C49;
 }
 
 header {
@@ -45,10 +45,6 @@ header {
 }
 
 @media (min-width: 550px) {
-    #header {
-        position: relative;
-    }
-
     #header-logo {
         float: left;
     }
@@ -62,4 +58,8 @@ header {
     #header-subtitle {
         float: right;
     }
+}
+
+@media (min-width: 1000px) {
+
 }
