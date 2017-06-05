@@ -3,7 +3,9 @@
 .color-light-greyblue { color: #7D97AD}
 
 * {
-    color: #2D3C49;
+    color: #7D97AD;
+    background-color: #2D3C49;
+    text-align: center;
 }
 
 header {
@@ -15,29 +17,30 @@ header {
 #header-logo {
     max-width: 50px;
     max-height: 50px;
-    margin-top: .5em;
+    margin-top: 0.5em;
 }
 
 #header-title {
     text-align: center;
-    margin: -.4em auto;
+    margin-bottom: -0.45em;
     font-size: 3em;
 }
 
 #header-subtitle {
     text-align: center;
-    margin: -.2em auto;
+    margin: 0;
     font-size: 1.25em;
 }
 
 #main-img {
     width: 100%;
-    padding: 20px;
+    min-width: 250px;
+    margin-top: 0.5em;
 }
 
 .tile {
-    margin: 20px auto;
     border: thin dotted #2D3C49;
+    margin: auto;
 }
 
 @media (min-width: 550px) {
